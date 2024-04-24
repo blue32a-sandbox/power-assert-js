@@ -1,6 +1,9 @@
 {
   "name": "try-power-assert-js",
   "description": "Try Power Assert in JavaScript",
+  "scripts": {
+    "test": "mocha --require intelli-espower-loader"
+  },
   "devDependencies": {
     "intelli-espower-loader": "^1.1.0",
     "mocha": "^10.4.0",
